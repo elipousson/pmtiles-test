@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "# freestiler::serve_tiles(\n#   fs::path(\n#     \"files\",\n#     \"baltimore_city_addresses.pmtiles\"\n#   )\n# )\n\n# freestiler::view_tiles(\n#     fs::path(\n#       \"files\",\n#       \"baltimore_city_addresses.pmtiles\"\n#     )\n# )\n\n# mapgl::maplibre() |&gt;\n#   mapgl::add_pmtiles_source(\n#     id = \"baltimore_city_addresses\",\n#     url = \"files/baltimore_city_addresses.pmtiles\"\n#   ) |&gt;\n#   mapgl::add_line_layer(\n#     id = \"streets\",\n#     source = \"baltimore_city_addresses\",\n#     source_layer = \"street_centerline\",\n#     line_color = \"#4a90d9\",\n#     line_width = 1.5\n#   ) |&gt;\n#   mapgl::add_circle_layer(\n#     id = \"addresses\",\n#     source = \"baltimore_city_addresses\",\n#     source_layer = \"address_point\"\n#   )"
+  }
+]

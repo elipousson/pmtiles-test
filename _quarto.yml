@@ -1,0 +1,10 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "PMTiles Test"
+
+format:
+  html:
+    theme: litera
